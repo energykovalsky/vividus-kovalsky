@@ -1,19 +1,12 @@
-#Ignore Gradle cache
-.gradle
+# build artifacts
+/build/
+/output/
+/.gradle/
 
-#Ignore IDE project files
-.settings
-.project
-.classpath
-**/bin
+# local temp files
+exit.txt
+
+# IDE
+.vscode/
+.idea/
 *.iml
-*.ipr
-*.iws
-**/.idea/
-
-#Build Dirs#
-output/
-.out/**
-
-# macOS system files
-.DS_Store
