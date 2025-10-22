@@ -1,12 +1,17 @@
-# build artifacts
+# Build / Gradle
 /build/
-/output/
+/bin/
 /.gradle/
-
-# local temp files
-exit.txt
+/output/
 
 # IDE
-.vscode/
+.classpath
+.project
+.settings/
 .idea/
+.vscode/
 *.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
